@@ -137,11 +137,11 @@ class Invoic extends Message
             'positionSeparator',
             'itemsCount',
             'payableAmount',
-            'totalPositionsAmount',
-            'basisAmount',
-            'taxableAmount',
             'tax',
+            'basisAmount',
             'taxAmount',
+            'totalPositionsAmount',
+            'taxableAmount',
         ]);
         parent::compose();
         $this->setPositionSeparator();
