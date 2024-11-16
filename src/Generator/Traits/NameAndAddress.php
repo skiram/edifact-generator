@@ -685,14 +685,14 @@ trait NameAndAddress
      * @return $this
      */
     public function setInvoiceAddress(
-        $name1 = '',
-        $name2 = '',
-        $name3 = '',
-        $street = '',
-        $zipCode = '',
-        $city = '',
-        $countryCode = 'DE',
-        $managingOrganisation = '',
+        $name1,
+        $name2,
+        $name3,
+        $street,
+        $zipCode,
+        $city,
+        $countryCode,
+        $managingOrganisation,
         $sender
     ) {
         $this->invoiceAddress = $this->addNameAndAddress(
